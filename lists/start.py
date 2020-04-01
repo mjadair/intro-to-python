@@ -1,12 +1,11 @@
-// * To run the code hold the `fn` key and press `f8`
+# ! Navigate to the directory and type `python start.py` to run the file
 
-console.log('Hello World')
+print('Hello World')
 
-// * This session we will be learning about the array datatype in JS 👨‍🏫👩‍🏫
+# * This session we will be learning about the basics of lists in Python 👨‍🏫👩‍🏫
 
-// TODO: Definings arrays
-// TODO: Array methods
-// TODO: Array iteration
-// TODO: Iteration methods MAP & FILTER
-// TODO: Reduce
-// TODO: MORE METHODS!!!!!
+# TODO: Definings lists
+# TODO: list methods
+# TODO: list iteration
+# TODO: Iteration methods MAP & FILTER
+# TODO: Reduce
