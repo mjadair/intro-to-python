@@ -1,45 +1,33 @@
 # *  ----- STRINGS  ------ *
-# *  💻 Remember "fn" key + "f8" to run  your code
+# Navigate to intro-to-python folder and type python strings.py to run
 
 # * 🦉 Practice
 
-
-
-
-
-
 # ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
 
-# ? Define a string as a const, log that string and its length to the console
+# ? Define a string as a variable, log that string and its length to the console
 
 
-# ? Using the "+" syntax and the string defined above, console.log the string "The word (myString) is (myStringLength) long"
+# ? Using the "+" syntax and the string defined above, print the string "The word (myString) is (myStringLength) characters long"
 
 
-# ? Try again using the "``" syntax.
+# ? Try again using the string interpolation syntax.
 
 
 # * ---- STRING METHODS 🧪 ---- * 
-# *  💻 Remember "fn" key + "f8" to run  your code
-
 
 # * 🦉 Practice
-
-
-
-
-
 
 # ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
 
 
-# ? Declare the string value 'javascript' as a const all lowercase, using string methods do the following:
+# ? Declare the string value 'python' as a variable all lowercase, using string methods do the following:
 
 
-# ? Log the string to the console all in uppercase -> 'JAVASCRIPT'
+# ? Print the string to the console all in uppercase -> 'PYTHON'
 
 
-# ? Log it title cased -> 'Javascript'
+# ? Print it title cased -> 'Python'
 
 
-# ? Bonus, log it like this -> 'JavaScript 😎'
+# ? Bonus, print it like this -> 'Python 😎'

@@ -1,32 +1,28 @@
-// *  ----- MIXING TYPES 🕺 ------ *
-// *  💻 Remember "fn" key + "f8" to run  your code
+# Navigate to intro-to-python-complete folder and type python mixing-types.py to run
 
-// * 🦉 Practice
+# *  ----- MIXING TYPES 🕺 ------ *
 
+# * 🦉 Practice
 
+# ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
 
+# ? Declare two varialbes, "numOne" and "numTwo", set their values to strings of number characters '10' and '5'
 
+numOne = '10'
+numTwo = '5'
 
-// ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
+# ? Declare a new variable called result, use the "+" operator to assign it a value and print it so it produces "105"
 
-// ? Declare two "consts", "numOne" and "numTwo", set their values to strings of number characters '10' and '5'
+result = numOne + numTwo
+print(result)
 
-const numOne = '10'
-const numTwo = '5'
+# ? What is the type of result currently? Print it using the built in "type()" function
 
-// ? Declare a new variable with "let" called result, use the "+" operator to assign it a value and log it so it produces "105"
+print(type(result))
 
-let result = numOne + numTwo
-console.log(result)
+# ? Now re assign result to add the number 45 and print it. --> 150
+# ? Print result in type again, what will it be now?
 
-// ? What is the type of result currently? Log it using the built in "typeof()" function
-
-console.log(typeof (result))
-
-// ? Now re assign result to add the number 45 and log it. --> 150
-// ? Log result in typeof again, what will it be now?
-
-result = parseInt(result) + 45
-console.log(result)
-console.log(typeof (result))
-
+result = int(result) + 45
+print(result)
+print(type(result))

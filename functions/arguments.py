@@ -32,7 +32,7 @@
 # ? Call and print the result of the function a few times, passing different arguments.
 
 
-# ? Define a function "findCharacterIndex" that accepts two parameters, a string, and a number. The function should return the character in the passed string found at the passed index number. If the index to return is longer than the string, it should return the string 'To long'
+# ? Define a function "findCharacterIndex" that accepts two parameters, a string, and a number. The function should return the character in the passed string found at the passed index number. If the index to return is longer than the string, it should return the string 'Too long'
 
 
 # ? Call and print the result of the function a few times, passing different arguments.

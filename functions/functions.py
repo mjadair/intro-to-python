@@ -20,5 +20,5 @@
 
 
 
-# ? Define a const "result" and assign it the value of calling "calculate". Print "result" to the console.
+# ? Define a variable "result" and assign it the value of calling "calculate". Print "result" to the console.
 

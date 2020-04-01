@@ -5,7 +5,7 @@
 # ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
 
 
-# ? Declare a function called "sayHello" that will return the string "Hello Everyone!". 
+# ? Declare a function called "sayHello" that will return the string "Hello Everyone!".
 
 def sayHello():
     return 'Hello Everyone!'
