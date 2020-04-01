@@ -5,7 +5,7 @@
 
 # ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
 
-# ? Comment back in the "const" declarations that have been commented out below
+# ? Comment back in the variable declarations that have been commented out below
 
 # milkAdded = True
 # waterTemp = 100
@@ -13,14 +13,14 @@
 
 # ? Write if statements to deal with following conditions:
 
-# ? If waterTemp is below 90, log 'Boil the kettle'
+# ? If waterTemp is below 90, print 'Boil the kettle'
 
 
-# ? If waterTemp is above 90, but brewed is not true, log 'Still brewing' 
+# ? If waterTemp is above 90, but brewed is not true, print 'Still brewing' 
 
 
 
-# ? If If waterTemp is above 90 and brewed is true, but milkAdded is false, log 'Needs milk!'
+# ? If waterTemp is above 90 and brewed is true, but milkAdded is false, print 'Needs milk!'
 
 
 

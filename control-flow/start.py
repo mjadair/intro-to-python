@@ -1,8 +1,8 @@
-# * To run the code hold the `fn` key and press `f8`
+# ! Navigate to the directory and type `python start.py` to run the file
 
-console.log('Hello World')
+print('Hello World')
 
-# * This session we will be learning about the basics of control flow in JS 👨‍🏫👩‍🏫
+# * This session we will be learning about the basics of control flow in Python 👨‍🏫👩‍🏫
 
 # TODO: Conditionals, if/else and switch.
 # TODO: Conditonal operators 
