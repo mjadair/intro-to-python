@@ -1,36 +1,30 @@
 # *  ----- ARRAY METHODS  ------ *
-# *  💻 Remember "fn" key + "f8" to run  your code
+# ! Navigate to the directory and type `python list-methods.py` to run the file
+
 
 # * 🦉 Practice
-
-
-
-
-
-
-
 
 
 # ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
 
 
-# ? Define an array called "foods", add a few strings of different food items, and log the array to the console
+# ? Define a list called "foods", add a few strings of different food items, and print the list to the console
 
-const foods = ['eggs', 'bacon', 'ham']
+foods = ['pie', 'pizza', 'tacos']
 
-console.log(foods)
+print(foods)
 
-# ? Using the array method "push", add another food item to the end of the array, and log it again.
+# ? Using the list method "append", add another food item to the end of the array, and log it again.
 
-foods.push('cheese')
-console.log(foods)
+foods.append('cheese')
+print(foods)
 
-# ? Use the array method "slice" to remove the first item of the array
+# ? Use the list method "pop" to remove the first item of the array
 
-foods.splice(0, 1)
-console.log(foods)
+foods.pop(0)
+print(foods)
 
-# ? Define a const "joined". Assign its value to the foods array to a string of all the array items joined together. Use the array method "join"
+# ? Define a variable "joined". Assign its value to the foods list to a string of all the array items separated by  ','. Use the list method "join"
 
-const joined = foods.join('')
-console.log(joined)
+joined = ','.join(foods)
+print(joined)

@@ -1,34 +1,22 @@
 # *  ----- ARRAY ITERATION ------ *
-# *  💻 Remember "fn" key + "f8" to run  your code
+# ! Navigate to the directory and type `python list-iteration.py` to run the file
+
 
 # * 🦉 Practice
 
-
-
-
-
-
-
-
-
 # ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
 
-# ? Define an array "students" and add some strings of names. Write a for loop that will log each item from the array in order.
+# ? Define an list "students" and add some strings of names. Write a for loop that will print each item from the array in order.
 
-const students = ['Jack', 'Charlotte', 'Abi', 'Guy', 'Mia']
+students = ['Nick', 'Guy', 'Michael', 'Jonny']
 
-for (let i = 0; i < students.length; i++) {
-  console.log(students[i])
-}
+for student in students:
+    print(student)
 
-# ? Write a forEach statement that console logs each students name in order
+# ? Write a for loop that prints each student's name, but with the letters of the name reversed.
 
-students.forEach(student => {
-  console.log(student)
-})
+students = ['Nick', 'Guy', 'Michael', 'Jonny']
 
-# ? Write a forEach statment that console logs each students name, but with the letters of the name reversed.
+for student in students:
+    print(student[::-1])
 
-students.forEach(student => {
-  console.log(student.split('').reverse().join(''))
-})
