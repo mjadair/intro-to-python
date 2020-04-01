@@ -1,45 +1,37 @@
 # *  ----- REDUCE  ------ *
-# *  💻 Remember "fn" key + "f8" to run  your code
+# ! Navigate to the directory and type `python reduce.py` to run the file
 
 # * 🦉 Practice
 
 
 
-
-
-
-
-
 # ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
 
-# ? Uncomment the following array
+# ? Uncomment the following list
 
-const numArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+numList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-# ? Define a const "total", assign its value to be the result of calling "reduce" on the numArray, returning the total sum of all numbers in the array.
-# ? Log out "total" should return -> 55
+# ? Define a variable "total", assign its value to be the result of calling "reduce" on the numList, returning the total sum of all numbers in the list.
+# ? Print out "total" should return -> 55
 
+import functools
 
-const total = numArray.reduce((acc, curr) => {
-  return acc + curr
-}, 0)
+total = (functools.reduce(lambda a,b : a+b,numList)) 
 
-console.log(total)
-
-
-# ? Uncomment the following array
-
-const nameArray = ['Jack', 'Abi', 'Charlotte', 'Guy']
+print(total)
 
 
-# ? Define a const "nameString", assign its value to be the result of calling "reduce" on the nameArray, returning a string containing all the names in the array seperated by a space.
+# ? Uncomment the following list
+
+nameList = ['Homer Simpson', 'Milhouse Vanhouten', 'Lionel Hutz', 'Chewbacca']
+
+
+# ? Define a variable "nameString", assign its value to be the result of calling "reduce" on the nameList, returning a string containing all the names in the list seperated by a space.
 # ? Log out "nameString" should return -> 'Jack Abi Charlotte Guy'
 
 
-const nameString = nameArray.reduce((str, curr) => {
-  return str + `${curr} `
-}, '')
+nameString = (functools.reduce(lambda a,b : a + ', ' + b,nameList)) 
 
-console.log(nameString)
+print(nameString)
 
 
