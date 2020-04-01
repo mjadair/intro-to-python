@@ -1,4 +1,4 @@
-# *  ----- ARRAY ITERATION ------ *
+# *  ----- List ITERATION ------ *
 # ! Navigate to the directory and type `python list-iteration.py` to run the file
 
 

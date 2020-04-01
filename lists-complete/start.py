@@ -2,8 +2,10 @@
 
 print('Hello World')
 
-# * This session we will be learning about the basics of control flow in JS 👨‍🏫👩‍🏫
+# * This session we will be learning about the basics of lists in Python 👨‍🏫👩‍🏫
 
-# TODO: Conditionals, if/else and switch.
-# TODO: Conditonal operators 
-# TODO: Loops
+# TODO: Definings lists
+# TODO: list methods
+# TODO: list iteration
+# TODO: Iteration methods MAP & FILTER
+# TODO: Reduce

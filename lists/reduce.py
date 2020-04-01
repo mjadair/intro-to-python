@@ -1,28 +1,30 @@
-// *  ----- REDUCE  ------ *
-// *  💻 Remember "fn" key + "f8" to run  your code
+# *  ----- REDUCE  ------ *
+# ! Navigate to the directory and type `python reduce.py` to run the file
 
-// * 🦉 Practice
-
-
+# * 🦉 Practice
 
 
 
+# ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
+
+# ? Uncomment the following list
+
+# numList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# ? Define a variable "total", assign its value to be the result of calling "reduce" on the numList, returning the total sum of all numbers in the list.
+# ? Print out "total" should return -> 55
 
 
 
-// ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
 
-// ? Uncomment the following array
-
-
-// ? Define a const "total", assign its value to be the result of calling "reduce" on the numArray, returning the total sum of all numbers in the array.
-// ? Log out "total" should return -> 55
+# ? Uncomment the following list
 
 
 
-// ? Uncomment the following array
+
+# ? Define a variable "nameString", assign its value to be the result of calling "reduce" on the nameList, returning a string containing all the names in the list seperated by a space.
+# ? Log out "nameString" should return -> 'Jack Abi Charlotte Guy'
 
 
 
-// ? Define a const "nameString", assign its value to be the result of calling "reduce" on the nameArray, returning a string containing all the names in the array seperated by a space.
-// ? Log out "nameString" should return -> 'Jack Abi Charlotte Guy'
+

@@ -1,29 +1,24 @@
-# *  ----- ARRAY METHODS  ------ *
-# *  💻 Remember "fn" key + "f8" to run  your code
+# *  ----- LIST METHODS  ------ *
+# ! Navigate to the directory and type `python list-methods.py` to run the file
+
 
 # * 🦉 Practice
-
-
-
-
-
-
-
 
 
 # ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
 
 
-# ? Define an array called "foods", add a few strings of different food items, and log the array to the console
+# ? Define a list called "foods", add a few strings of different food items, and print the list to the console
 
 
 
-# ? Using the array method "push", add another food item to the end of the array, and log it again.
+# ? Using the list method "append", add another food item to the end of the list, and log it again.
 
 
 
-# ? Use the array method "slice" to remove the first item of the array
+# ? Use the list method "pop" to remove the first item of the list
 
 
 
-# ? Define a const "joined". Assign its value to the foods array to a string of all the array items joined together. Use the array method "join"
+# ? Define a variable "joined". Assign its value to the foods list to a string of all the list items separated by  ','. Use the list method "join"
+

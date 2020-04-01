@@ -1,4 +1,4 @@
-# *  ----- FILTERING ARRAYS ------ *
+# *  ----- FILTERING LISTS ------ *
 # ! Navigate to the directory and type `python list-iteration-methods.py` to run the file
 
 # * 🦉 Practice
