@@ -1,41 +1,33 @@
-// *  ----- BOOLEANS 💡  ------ *
-// *  💻 Remember "fn" key + "f8" to run  your code
+# Navigate to intro-to-python-complete folder and type python booleans.py to run
 
-// * 🦉 Practice
+# *  ----- BOOLEANS 💡  ------ *
 
+# * 🦉 Practice
 
+# ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
 
+# ? Convert the following values to booleans using the "Boolean(value)", before running the code, think about what you will expect to see in the console
 
+# ? Convert the string value '' (empty string no space)
 
+print(bool(''))
 
-// ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
+# ? Convert the string value ' '(string with a single space character)
 
-// ? Convert the following values to booleans using the "Boolean(value)", before running the code, think about what you will expect to see in the log
+print(bool(' '))
 
-// ? Convert the string value '' (empty string no space)
+# ? Convert the number value 4
 
-// ? Convert the string value ' '(string with a single space character)
+print(bool(4))
 
-// ? Convert the number value 4
+# ? Convert the number value 0
 
-// ? Convert the number value 0
+print(bool(0))
 
-// ? Convert the number value -1
+# ? Convert the number value -1
 
-// ? Convert the value NaN
+print(bool(-1))
 
-// ? Convert the value "undefined"
+# *  ----- BOOLEAN OPERATORS 🤷‍♂️🤷‍♀️  ------ *
 
-// ? Convert the value "null"
-
-// *  ----- BOOLEAN OPERATORS, GREATER THAN, LESS THAN, NOT AND EQUALITY 🤷‍♂️🤷‍♀️  ------ *
-// *  💻 Remember "fn" key + "f8" to run  your code
-
-// * 🦉 Practice
-
-
-
-
-
-
-// ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
+# * 🦉 Practice

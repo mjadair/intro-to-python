@@ -1,67 +1,52 @@
-// *  ----- NUMBERS 🧮 ------
-// *  💻 Remember "fn" key + "f8" to run  your code
+# *  ----- NUMBERS 🧮 ------
 
-// * 🦉 Practice
+import math
+import random
 
-
-
-
+# Navigate to intro-to-python-complete folder and type python numbers.py to run
 
 
-// ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
+# * 🦉 Practice
 
-// ? Define a "const" with the label "num" and assign the value 10 
 
-const num = 10
+# ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
 
-// ? Define a variable "result" using the "let" keyword, assign its value to our "num" + 50, and log it --> 60
+# ? Define a variable with the label "num" and assign the value 10
 
-let result = num + 50
-console.log(result)
+num = 10
 
-// ? reassign "result", to be the value of itself divided by 2, log it out --> 30
+# ? Define a variable "result", assign its value to our "num" + 50, and print it --> 60
+
+result = num + 50
+print(result)
+
+# ? reassign "result", to be the value of itself divided by 2, print it out --> 30
 
 result = result / 2
-console.log(result)
+print(result)
 
-// ? reassign "result" again, to be the value of itself minus 9 --> 21
+# ? reassign "result" again, to be the value of itself minus 9 --> 21
 
 result = result - 9
-console.log(result)
+print(result)
 
-// ? reassign "result" again, to be value of itself divided by 7 --> 3
+# ? reassign "result" again, to be value of itself divided by 7 --> 3
 
 result = result / 7
-console.log(result)
+print(result)
 
-// *  ----- MATH OBJECT 🧮 ------
-// *  💻 Remember "fn" key + "f8" to run  your code
+# ? Print the float 3.3 to the nearest number
 
-// * 🦉 Practice
+print(round(3.3))
 
+# ? Print the float 10.8 rounded to 10
 
+print(math.floor(10.8))
 
+# ? Print the float 4.2 round to 5
 
+print(math.ceil(4.2))
 
+# ? Print a random number between 1 and 10
 
-
-
-// ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
-
-// ? Using the in built Math Object, try the following:
-
-// ? Log the float 3.3 to the nearest number
-
-console.log(Math.round(3.3))
-
-// ? Log the float 10.8 rounded to 10
-
-console.log(Math.floor(10.8))
-
-// ? Log the float 4.2 round to 5
-
-console.log(Math.ceil(4.2))
-
-// ? Log a random number between 1 and 10
-
-console.log(Math.ceil(Math.random() * 10))
+print(random.randint(1,10))

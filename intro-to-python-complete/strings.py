@@ -1,57 +1,44 @@
-// *  ----- STRINGS  ------ *
-// *  💻 Remember "fn" key + "f8" to run  your code
+# *  ----- STRINGS  ------ *
+# Navigate to intro-to-python-complete folder and type python strings.py to run
 
-// * 🦉 Practice
+# * 🦉 Practice
 
+# ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
 
+# ? Define a string as a variable, log that string and its length to the console
 
+myName = 'Nick'
 
+print(myName)
 
+print(len(myName))
 
-// ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
+# ? Using the "+" syntax and the string defined above, print the string "The word (myString) is (myStringLength) characters long"
 
-// ? Define a string as a const, log that string and its length to the console
+print('The word ' + myName + ' is ' + str(len(myName)) + ' characters long')
 
-const myName = 'Jack'
+# ? Try again using the string interpolation syntax.
 
-console.log(myName)
+print(f'The word {myName} is {len(myName)} characters long')
 
-console.log(myName.length)
+# * ---- STRING METHODS 🧪 ---- *
 
-// ? Using the "+" syntax and the string defined above, console.log the string "The word (myString) is (myStringLength) characters long"
+# * 🦉 Practice
 
-console.log('The word ' + myName + ' is ' + myName.length + ' characters long')
+# ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
 
-// ? Try again using the "``" syntax.
+# ? Declare the string value 'python' as a variable all lowercase, using string methods do the following:
 
-console.log(`The word ${myName} is ${myName.length} characters long`)
+string = 'python'
 
-// * ---- STRING METHODS 🧪 ---- * 
-// *  💻 Remember "fn" key + "f8" to run  your code
+# ? Print the string to the console all in uppercase -> 'PYTHON'
 
+print(string.upper())
 
-// * 🦉 Practice
+# ? Print it title cased -> 'Python'
 
+print(string.title())
 
+# ? Bonus, print it like this -> 'Python 😎'
 
-
-
-
-// ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
-
-
-// ? Declare the string value 'javascript' as a const all lowercase, using string methods do the following:
-
-const string = 'javascript'
-
-// ? Log the string to the console all in uppercase -> 'JAVASCRIPT'
-
-console.log(string.toUpperCase())
-
-// ? Log it title cased -> 'Javascript'
-
-console.log(`${string.charAt(0).toUpperCase()}${string.slice(1)}`)
-
-// ? Bonus, log it like this -> 'JavaScript 😎'
-
-console.log(`${string.charAt(0).toUpperCase()}${string.slice(1, 4)}${string.charAt(4).toUpperCase()}${string.slice(5)} 😎`)
+print(f'{string.title()} 😎')
