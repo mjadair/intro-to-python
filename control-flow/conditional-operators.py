@@ -24,5 +24,5 @@
 
 
 
-# ? If waterTemp is above 90 and brewed is true and milkAdded is true, log 'Tea is ready!'
+# ? If waterTemp is above 90 and brewed is true and milkAdded is true, print 'Tea is ready!'
 

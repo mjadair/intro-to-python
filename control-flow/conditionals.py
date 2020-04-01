@@ -9,7 +9,7 @@
 # ? Declare a variable "isRaining" and set its value to the boolean True
 
 
-# ? Write an "if/else" statement. If isRaining is True, the string 'Bring a raincoat!' should be printed to the console, otherwise it should printed 'good to go!' 
+# ? Write an "if/else" statement. If isRaining is True, the string 'Bring a raincoat!' should be printed to the console, otherwise it should print 'good to go!' 
 # ? Check your statement by changing "isRaining" to be false and re-run the code to see the new output
 
 
