@@ -1,14 +1,6 @@
-# *  ----- FUNCTIONS 🧰  ------ *
-# *  💻 Remember "fn" key + "f8" to run  your code
+# Navigate to functions folder and type python functions.py to run
 
 # * 🦉 Practice
-
-
-
-
-
-
-
 
 # ! ⚠️Remember to comment out your practice code before attempting below, "cmd" + "/"
 
@@ -17,10 +9,10 @@
 
 
 
-# ? Log the function to the console, making sure to call it. 
+# ? Print the function to the console, making sure to call it.
 
 
-# ? Log the function again, but this time don't call it with "()" at the end. What changed?
+# ? Print the function again, but this time don't call it with "()" at the end. What changed?
 
 
 
@@ -28,5 +20,5 @@
 
 
 
-# ? Define a const "result" and assign it the value of calling "calculate". Log "result" to the console.
+# ? Define a const "result" and assign it the value of calling "calculate". Print "result" to the console.
 
