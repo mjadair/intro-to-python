@@ -1,8 +1,8 @@
-# * To run the code hold the `fn` key and press `f8`
+# ! Navigate to the directory and type `python start.py` to run the file
 
 print('Hello World')
 
-# * This session we will be learning about functions in JS 👨‍🏫👩‍🏫
+# * This session we will be learning about functions in Python 👨‍🏫👩‍🏫
 
 # TODO: Definings functions
 # TODO: Arguments and parameters
